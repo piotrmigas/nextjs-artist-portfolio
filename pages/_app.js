@@ -87,6 +87,7 @@ function MyApp({ Component, pageProps }) {
           <div className="alert text-center cookiealert" role="alert">
             <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.
             <a href="https://cookiesandyou.com/" target="_blank">
+              {" "}
               Learn more
             </a>
             <button type="button" className="btn btn-primary btn-sm acceptcookies">

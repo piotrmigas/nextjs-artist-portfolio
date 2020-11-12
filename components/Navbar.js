@@ -8,8 +8,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <Link href="/">
-          <a>
-            <span className="navbar-brand h1 font-weight-bold mb-0">Emilia Kina</span>
+          <a className="navbar-brand">
+            <span className="fw-bold mb-0">Emilia Kina</span>
           </a>
         </Link>
         <button className="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar">

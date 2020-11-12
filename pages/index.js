@@ -79,7 +79,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-        <p className="font-weight-bold pt-4 pb-4">
+        <p className="fw-bold pt-4 pb-4">
           Contact:{" "}
           <a href="mailto:kinaemila@gmail.com" className="email">
             kinaemila@gmail.com

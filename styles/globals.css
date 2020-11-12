@@ -24,7 +24,8 @@ body {
   background: #eae9e7;
 }
 
-.navbar-brand {
+.navbar-brand,
+.navbar-brand:hover {
   color: #a3a3a8;
 }
 
@@ -56,9 +57,6 @@ body {
 
 .email {
   color: #69c1d3;
-}
-
-.email:hover {
   text-decoration: none;
 }
 
@@ -72,6 +70,7 @@ img {
   cursor: pointer;
   width: 100px;
   height: 100px;
+  object-fit: cover;
 }
 
 /*Footer*/

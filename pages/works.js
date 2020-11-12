@@ -1,7 +1,7 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
-import images from "../data/workImages";
+import images from "../data/worksImages";
 
 const Works = ({ options }) => {
   const [loaded, setLoaded] = React.useState(false);
@@ -18,9 +18,9 @@ const Works = ({ options }) => {
         />
       </h5>
       <SRLWrapper customCaptions={images} options={options}>
-        <div className="pl-1 pt-1 gal">
+        <div className="text-center mb-4">
           {images.map(({ id, src }) => (
-            <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} />
+            <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} className="p-1" />
           ))}
         </div>
       </SRLWrapper>

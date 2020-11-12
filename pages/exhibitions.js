@@ -18,9 +18,9 @@ const ExhibitionViews = ({ options }) => {
         />
       </h5>
       <SRLWrapper customCaptions={images} options={options}>
-        <div className="pl-1 pt-1 gal">
+        <div className="text-center mb-4">
           {images.map(({ id, src }) => (
-            <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} />
+            <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} className="p-1" />
           ))}
         </div>
       </SRLWrapper>

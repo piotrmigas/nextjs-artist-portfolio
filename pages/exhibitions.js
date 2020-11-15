@@ -1,10 +1,21 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
-import images from "../data/exhibitionImages";
+import { exhibitionCaptions } from "./api/exhibitionCaptions";
+import axios from "axios";
 
 const ExhibitionViews = ({ options }) => {
   const [loaded, setLoaded] = React.useState(false);
+  const [images, setImages] = React.useState([]);
+
+  React.useEffect(() => {
+    const getImgs = async () => {
+      const { data } = await axios("/api/exhibition");
+      setImages(data);
+    };
+
+    getImgs();
+  }, []);
 
   return (
     <>
@@ -17,7 +28,7 @@ const ExhibitionViews = ({ options }) => {
           style={{ visibility: !loaded ? "visible" : "hidden", display: "inline" }}
         />
       </h5>
-      <SRLWrapper customCaptions={images} options={options}>
+      <SRLWrapper customCaptions={exhibitionCaptions} options={options}>
         <div className="text-center mb-4">
           {images.map(({ id, src }) => (
             <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} className="p-1" />

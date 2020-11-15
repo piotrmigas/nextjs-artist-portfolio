@@ -1,10 +1,21 @@
 import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
-import images from "../data/worksImages";
+import axios from "axios";
+import { worksCaptions } from "./api/worksCaptions";
 
 const Works = ({ options }) => {
   const [loaded, setLoaded] = React.useState(false);
+  const [images, setImages] = React.useState([]);
+
+  React.useEffect(() => {
+    const getImgs = async () => {
+      const { data } = await axios("/api/works");
+      setImages(data);
+    };
+
+    getImgs();
+  }, []);
 
   return (
     <>
@@ -17,7 +28,7 @@ const Works = ({ options }) => {
           style={{ visibility: !loaded ? "visible" : "hidden", display: "inline" }}
         />
       </h5>
-      <SRLWrapper customCaptions={images} options={options}>
+      <SRLWrapper customCaptions={worksCaptions} options={options}>
         <div className="text-center mb-4">
           {images.map(({ id, src }) => (
             <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} className="p-1" />

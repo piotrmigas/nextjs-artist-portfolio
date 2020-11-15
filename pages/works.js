@@ -10,8 +10,12 @@ const Works = ({ options }) => {
 
   React.useEffect(() => {
     const getImgs = async () => {
-      const { data } = await axios("/api/works");
-      setImages(data);
+      try {
+        const { data } = await axios("/api/works");
+        setImages(data);
+      } catch (err) {
+        throw new Error(err);
+      }
     };
 
     getImgs();

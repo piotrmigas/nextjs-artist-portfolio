@@ -10,8 +10,12 @@ const ExhibitionViews = ({ options }) => {
 
   React.useEffect(() => {
     const getImgs = async () => {
-      const { data } = await axios("/api/exhibition");
-      setImages(data);
+      try {
+        const { data } = await axios("/api/exhibitions");
+        setImages(data);
+      } catch (err) {
+        throw new Error(err);
+      }
     };
 
     getImgs();

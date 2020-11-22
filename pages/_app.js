@@ -49,6 +49,7 @@ function MyApp({ Component, pageProps }) {
             <link rel="icon" href="/favicon.ico" />
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <meta name="keywords" content="Emilia Kina" />
             <meta name="description" content="Emilia Kina's Portfolio" />
             <meta google-site-verification="google3243b8247a579621" />
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />

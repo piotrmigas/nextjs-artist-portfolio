@@ -10,12 +10,9 @@ const Layout = ({ children }) => {
         <Navbar />
         <div className="container">{children}</div>
         <div className="alert text-center cookiealert" role="alert">
-          <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.{" "}
-          <a href="https://cookiesandyou.com/" target="_blank">
-            Learn more
-          </a>
+          This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy.
           <button type="button" className="btn btn-primary btn-sm acceptcookies">
-            I agree
+            Ok
           </button>
         </div>
         <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>

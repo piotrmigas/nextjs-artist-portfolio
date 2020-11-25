@@ -10,6 +10,7 @@ const Head = () => {
       <meta name="keywords" content="emilia kina" />
       <meta name="description" content="Emilia Kina's Portfolio" />
       <meta google-site-verification="google3243b8247a579621" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
       <link
         rel="stylesheet"

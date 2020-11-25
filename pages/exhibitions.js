@@ -1,5 +1,5 @@
 import React from "react";
-import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
 import { exhibitionImgs } from "../data/exhibitionImgs";
 
@@ -7,7 +7,7 @@ const ExhibitionViews = ({ options }) => {
   const [loaded, setLoaded] = React.useState(false);
 
   return (
-    <>
+    <SimpleReactLightbox>
       <h5 className="pt-4 pb-3 text-center">
         Exhibition Views{" "}
         <Loader
@@ -24,7 +24,7 @@ const ExhibitionViews = ({ options }) => {
           ))}
         </div>
       </SRLWrapper>
-    </>
+    </SimpleReactLightbox>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
 import { worksImgs } from "../data/worksImgs";
 
@@ -7,7 +7,7 @@ const Works = ({ options }) => {
   const [loaded, setLoaded] = React.useState(false);
 
   return (
-    <>
+    <SimpleReactLightbox>
       <h5 className="pt-4 pb-3 text-center">
         Works{" "}
         <Loader
@@ -24,7 +24,7 @@ const Works = ({ options }) => {
           ))}
         </div>
       </SRLWrapper>
-    </>
+    </SimpleReactLightbox>
   );
 };
 

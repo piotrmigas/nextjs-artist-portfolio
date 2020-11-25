@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import SimpleReactLightbox from "simple-react-lightbox";
 import { motion } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
@@ -77,9 +76,7 @@ function MyApp({ Component, pageProps }) {
           </Head>
           <Navbar />
           <div className="container">
-            <SimpleReactLightbox>
-              <Component {...pageProps} options={options} />
-            </SimpleReactLightbox>
+            <Component {...pageProps} options={options} />
           </div>
           <div className="alert text-center cookiealert" role="alert">
             <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.{" "}

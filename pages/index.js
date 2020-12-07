@@ -44,6 +44,8 @@ const Home = () => {
               <div className="col-sm-12">
                 <h5 className="pt-4">GROUP EXHIBITIONS:</h5>
                 <ul className="list-group list-group-flush">
+                  <li className="list-group-item">2020 : NADA Miami x Warsaw 2020 : Raster Gallery : Warszawa : PL</li>
+                  <li className="list-group-item">2020 : Time and foam : Academy of Fine Arts Gallery : Kraków : PL</li>
                   <li className="list-group-item">2019 : Innocent Eyes, Weak Arm : Šopa Gallery : Koszyce : SK</li>
                   <li className="list-group-item">2019 : Dwelling : Gallery Grey House : Kraków : PL</li>
                   <li className="list-group-item">

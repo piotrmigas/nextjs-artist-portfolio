@@ -1,11 +1,11 @@
-import React from "react";
+import { useState } from "react";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
 import { worksImgs } from "../data/worksImgs";
 import Layout from "../components/Layout";
 
 const Works = ({ options }) => {
-  const [loaded, setLoaded] = React.useState(false);
+  const [loaded, setLoaded] = useState(false);
 
   return (
     <Layout>

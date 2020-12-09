@@ -21,7 +21,7 @@ const Works = ({ options }) => {
       <SimpleReactLightbox>
         <SRLWrapper customCaptions={worksImgs} options={options}>
           <div className="text-center mb-4">
-            {worksImgs.map(({ id, src }) => (
+            {worksImgs.reverse().map(({ id, src }) => (
               <img src={src} alt="" key={id} onLoad={() => setLoaded(true)} className="p-1" />
             ))}
           </div>

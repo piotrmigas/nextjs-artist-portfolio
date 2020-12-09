@@ -1,6 +1,6 @@
 export const exhibitionImgs = [
   {
-    id: 0,
+    id: 36,
     src: "images/exhibitionViews/1.jpg",
     caption: (
       <>
@@ -10,7 +10,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 1,
+    id: 35,
     src: "images/exhibitionViews/2.jpg",
     caption: (
       <>
@@ -20,12 +20,12 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 2,
+    id: 34,
     src: "images/exhibitionViews/3.jpg",
     caption: <p>"Triangel" Polnisches Institut Düsseldorf/Düsseldorf/2017</p>,
   },
   {
-    id: 3,
+    id: 33,
     src: "images/exhibitionViews/4.jpg",
     caption: (
       <>
@@ -35,32 +35,32 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 4,
+    id: 32,
     src: "images/exhibitionViews/5.jpg",
     caption: <p>"TANCEBA" BWA Art Gallery in Bielsko Biała /Bielsko Biała/2017</p>,
   },
   {
-    id: 5,
+    id: 31,
     src: "images/exhibitionViews/6.jpg",
     caption: <p>"TANCEBA" BWA Art Gallery in Bielsko Biała /Bielsko Biała/2017</p>,
   },
   {
-    id: 6,
+    id: 30,
     src: "images/exhibitionViews/7.jpg",
     caption: <p>"Pre-Lock-Up Stage" Gdańsk City Gallery/Gdańsk/2017</p>,
   },
   {
-    id: 7,
+    id: 29,
     src: "images/exhibitionViews/8.jpg",
     caption: <p>"Pre-Lock-Up Stage" Gdańsk City Gallery/Gdańsk/2017</p>,
   },
   {
-    id: 8,
+    id: 28,
     src: "images/exhibitionViews/9.jpg",
     caption: <p>"Pre-Lock-Up Stage" Gdańsk City Gallery/Gdańsk/2017</p>,
   },
   {
-    id: 9,
+    id: 27,
     src: "images/exhibitionViews/10.jpg",
     caption: (
       <>
@@ -70,7 +70,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 10,
+    id: 26,
     src: "images/exhibitionViews/11.jpg",
     caption: (
       <>
@@ -80,7 +80,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 11,
+    id: 25,
     src: "images/exhibitionViews/12.jpg",
     caption: (
       <>
@@ -90,7 +90,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 12,
+    id: 24,
     src: "images/exhibitionViews/13.jpg",
     caption: (
       <>
@@ -100,7 +100,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 13,
+    id: 23,
     src: "images/exhibitionViews/14.jpg",
     caption: (
       <>
@@ -110,7 +110,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 14,
+    id: 22,
     src: "images/exhibitionViews/15.jpg",
     caption: (
       <>
@@ -120,7 +120,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 15,
+    id: 21,
     src: "images/exhibitionViews/16.jpg",
     caption: (
       <>
@@ -130,7 +130,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 16,
+    id: 20,
     src: "images/exhibitionViews/17.jpg",
     caption: (
       <>
@@ -140,7 +140,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 17,
+    id: 19,
     src: "images/exhibitionViews/18.jpg",
     caption: (
       <>
@@ -160,7 +160,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 19,
+    id: 17,
     src: "images/exhibitionViews/20.jpg",
     caption: (
       <>
@@ -170,7 +170,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 20,
+    id: 16,
     src: "images/exhibitionViews/21.jpg",
     caption: (
       <>
@@ -180,7 +180,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 21,
+    id: 15,
     src: "images/exhibitionViews/22.jpg",
     caption: (
       <>
@@ -190,7 +190,7 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 22,
+    id: 14,
     src: "images/exhibitionViews/23.jpg",
     caption: (
       <>
@@ -200,72 +200,72 @@ export const exhibitionImgs = [
     ),
   },
   {
-    id: 23,
+    id: 13,
     src: "images/exhibitionViews/24.jpg",
     caption: <p>"Dwelling" Gallery Grey House/Kraków/2019</p>,
   },
   {
-    id: 24,
+    id: 12,
     src: "images/exhibitionViews/25.jpg",
     caption: <p>"Dwelling" Gallery Grey House/Kraków/2019</p>,
   },
   {
-    id: 25,
+    id: 11,
     src: "images/exhibitionViews/26.jpg",
     caption: <p>"Dwelling" Gallery Grey House/Kraków/2019</p>,
   },
   {
-    id: 26,
+    id: 10,
     src: "images/exhibitionViews/27.jpg",
     caption: <p>"Primal Fantasies" BWA Contemporary Art Gallery in Katowice/2019</p>,
   },
   {
-    id: 27,
+    id: 9,
     src: "images/exhibitionViews/28.jpg",
     caption: <p>"Primal Fantasies" BWA Contemporary Art Gallery in Katowice/2019</p>,
   },
   {
-    id: 28,
+    id: 8,
     src: "images/exhibitionViews/29.jpg",
     caption: <p>"Primal Fantasies" BWA Contemporary Art Gallery in Katowice/2019</p>,
   },
   {
-    id: 29,
+    id: 7,
     src: "images/exhibitionViews/30.jpg",
     caption: <p>"Mirage Travel" Wozownia Art Gallery/Toruń/2019</p>,
   },
   {
-    id: 30,
+    id: 6,
     src: "images/exhibitionViews/31.jpg",
     caption: <p>"Mirage Travel" Wozownia Art Gallery/Toruń/2019</p>,
   },
   {
-    id: 31,
+    id: 5,
     src: "images/exhibitionViews/32.jpg",
     caption: <p>"Mirage Travel" Wozownia Art Gallery/Toruń/2019</p>,
   },
   {
-    id: 32,
+    id: 4,
     src: "images/exhibitionViews/33.jpg",
     caption: <p>"SCREEN" Raster Gallery/Warszawa/2020</p>,
   },
   {
-    id: 33,
+    id: 3,
     src: "images/exhibitionViews/34.jpg",
     caption: <p>"SCREEN" Raster Gallery/Warszawa/2020</p>,
   },
   {
-    id: 34,
+    id: 2,
     src: "images/exhibitionViews/35.jpg",
     caption: <p>"SCREEN" Raster Gallery/Warszawa/2020</p>,
   },
   {
-    id: 35,
+    id: 1,
     src: "images/exhibitionViews/36.jpg",
     caption: <p>"SCREEN" Raster Gallery/Warszawa/2020</p>,
   },
   {
-    id: 36,
+    id: 0,
     src: "images/exhibitionViews/37.jpg",
     caption: <p>"SCREEN" Raster Gallery/Warszawa/2020</p>,
   },

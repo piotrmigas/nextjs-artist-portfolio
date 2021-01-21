@@ -5,7 +5,6 @@ const Head = () => {
     <NextHead>
       <title>Emilia Kina's Portfolio</title>
       <link rel="icon" href="/favicon.ico" />
-      <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:site_name" content="Emilia Kina's Portfolio" />
       <meta property="og:type" content="website" />

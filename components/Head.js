@@ -7,8 +7,9 @@ const Head = () => {
       <link rel="icon" href="/favicon.ico" />
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta name="keywords" content="emilia kina" />
-      <meta name="description" content="Emilia Kina's Portfolio" />
+      <meta property="og:site_name" content="Emilia Kina's Portfolio" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/favicon.ico" />
       <meta google-site-verification="google3243b8247a579621" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />

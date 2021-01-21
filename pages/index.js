@@ -9,7 +9,6 @@ const Home = () => {
         <meta name="description" content="Emilia Kina's Portfolio" />
         <meta property="og:description" content="Emilia Kina's Portfolio" />
         <meta property="og:title" content="Emilia Kina's Portfolio" />
-        <meta property="og:url" content="https://emiliakina.vercel.app/" />
       </Head>
       <motion.div
         initial="hidden"

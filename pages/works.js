@@ -3,6 +3,7 @@ import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Loader from "react-loader-spinner";
 import { worksImgs } from "../data/worksImgs";
 import Layout from "../components/Layout";
+import { motion } from "framer-motion";
 
 const Works = ({ options }) => {
   const [loading, setLoading] = useState(true);
@@ -29,9 +30,25 @@ const Works = ({ options }) => {
       <SimpleReactLightbox>
         <SRLWrapper customCaptions={worksImgs} options={options}>
           <div className="text-center mb-4" style={{ display: loading ? "none" : "block" }}>
-            {worksImgs.reverse().map(({ id, src }) => (
-              <img src={src} alt="" key={id} onLoad={imageLoaded} className="p-1" />
-            ))}
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  opacity: 0,
+                },
+                visible: {
+                  opacity: 1,
+                  transition: {
+                    delay: 0.4,
+                  },
+                },
+              }}
+            >
+              {worksImgs.reverse().map(({ id, src }) => (
+                <img src={src} alt="" key={id} onLoad={imageLoaded} className="p-1" />
+              ))}
+            </motion.div>
           </div>
         </SRLWrapper>
       </SimpleReactLightbox>

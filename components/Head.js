@@ -12,6 +12,7 @@ const Head = () => {
       <meta name="description" content="Emilia Kina's Portfolio" />
       <meta property="og:description" content="Emilia Kina's Portfolio" />
       <meta property="og:title" content="Emilia Kina's Portfolio" />
+      <meta name="keywords" content="emilia kina, contemporary art, contemporary painting, new art" />
       <meta google-site-verification="google3243b8247a579621" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />

@@ -39,7 +39,7 @@ body {
 }
 
 i {
-  font-size: 25px;
+  font-size: 24px;
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
@@ -84,13 +84,4 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #eae9e7;
-}
-
-/*Media Queries*/
-
-@media only screen and (max-width: 320px) {
-  i {
-    padding-top: 2rem;
-    padding-left: 7.5rem;
-  }
 }

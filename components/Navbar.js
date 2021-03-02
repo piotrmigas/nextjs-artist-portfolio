@@ -32,10 +32,12 @@ const Navbar = () => {
                 <a className={`nav-link ${router.pathname == "/exhibitions" ? "active" : ""}`}>Exhibition Views</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <a href="https://www.instagram.com/emilia_kina" className="nav-link">
+                <i className="fab fa-instagram" />
+              </a>
+            </li>
           </ul>
-          <a href="https://www.instagram.com/emilia_kina" className="ml-2">
-            <i className="fab fa-instagram" />
-          </a>
         </div>
       </div>
     </nav>

@@ -33,6 +33,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <a href="https://www.instagram.com/emilia_kina" className="ml-2">
+            <i className="fab fa-instagram" />
+          </a>
         </div>
       </div>
     </nav>

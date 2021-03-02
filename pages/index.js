@@ -108,11 +108,8 @@ const Home = () => {
             </div>
             <p className="fw-bold pt-4 pb-4">
               Contact:{" "}
-              <a href="mailto:kinaemila@gmail.com" className="email">
+              <a href="mailto:kinaemila@gmail.com" className="email ">
                 kinaemila@gmail.com
-              </a>
-              <a href="https://www.instagram.com/emilia_kina" className="align-middle ml-2">
-                <i className="fab fa-instagram fa-2x" />
               </a>
             </p>
           </div>

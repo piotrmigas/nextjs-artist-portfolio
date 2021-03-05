@@ -33,7 +33,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="https://www.instagram.com/emilia_kina" className="nav-link">
+              <a href="https://www.instagram.com/emilia_kina" className="nav-link" aria-label="Instagram">
                 <i className="fab fa-instagram" />
               </a>
             </li>

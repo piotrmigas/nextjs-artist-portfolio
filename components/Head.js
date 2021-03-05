@@ -8,7 +8,7 @@ const Head = () => {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:site_name" content="Emilia Kina's Portfolio" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="/favicon.ico" />
+      <meta property="og:image" content="/images/works/25.jpg" />
       <meta name="description" content="Emilia Kina's Portfolio" />
       <meta property="og:description" content="Emilia Kina's Portfolio" />
       <meta property="og:title" content="Emilia Kina's Portfolio" />

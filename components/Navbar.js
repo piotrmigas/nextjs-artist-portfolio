@@ -12,8 +12,14 @@ const Navbar = () => {
             <span className="fw-bold mb-0">Emilia Kina</span>
           </a>
         </Link>
-        <button className="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar">
-          <span className="navbar-toggler-icon"></span>
+        <button
+          className="navbar-toggler float-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="navbar-collapse collapse" id="navbar">
           <ul className="navbar-nav ml-auto">

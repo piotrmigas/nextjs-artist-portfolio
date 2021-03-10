@@ -2,12 +2,12 @@ import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title = "Emilia Kina's Portfolio" }) => {
   return (
     <div className="page-container">
       <div className="content-wrap">
         <Head>
-          <title>Emilia Kina's Portfolio</title>
+          <title>{title}</title>
           <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.ico" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />

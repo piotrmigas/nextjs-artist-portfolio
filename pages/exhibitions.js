@@ -17,7 +17,7 @@ const ExhibitionViews = ({ options }) => {
   };
 
   return (
-    <Layout>
+    <Layout title="Exhibition Views">
       <h5 className="pt-4 pb-3 text-center">
         Exhibition Views{" "}
         <Loader

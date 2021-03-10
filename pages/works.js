@@ -17,7 +17,7 @@ const Works = ({ options }) => {
   };
 
   return (
-    <Layout>
+    <Layout title="Works">
       <h5 className="pt-4 pb-3 text-center">
         Works{" "}
         <Loader
